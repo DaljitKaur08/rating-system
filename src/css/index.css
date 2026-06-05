@@ -1,3 +1,44 @@
+@charset "utf-8";
+@import './reset.css';
+
+body {
+    background-color: rgb(23 24 32);
+    color: #fff;
+}
+
+.app {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 3rem;
+}
+
+.open-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #485eee;
+    color: #fff;
+}
+
 .dialog-overlay {
     position: fixed;
     inset: 0;
@@ -10,13 +51,17 @@
 .dialog-box {
     width: 350px;
     padding: 20px;
-    border-radius: 5px;
     background-color: #fff;
     color: #000;
+    border-radius: 5px;
     text-align: center;
 }
 
 .dialog-box button {
     margin-top: 15px;
-    padding: 8px 16px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #485eee;
+    color: #fff;
 }
