@@ -1,0 +1,22 @@
+.dialog-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgb(0 0 0 / 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-box {
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.dialog-box button {
+    margin-top: 15px;
+    padding: 8px 16px;
+}
