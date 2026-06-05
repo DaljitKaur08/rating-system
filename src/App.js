@@ -3,9 +3,9 @@ import StarRating from './components/StarRating';
 import Dialog from './components/Dialog';
 
 function App() {
-
+//useState
     const [isOpen, setOpen] = useState(false);
-
+// Event handler to open and to close the dailog 
     function openDialog() {
         setOpen(true);
     }
