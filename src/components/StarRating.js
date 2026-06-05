@@ -4,7 +4,7 @@ import Star from './Star';
 function StarRating() {
 
     const [rating, setRating] = useState(0);
-//Rating Labels 
+//Array of Rating descriptions
     const ratings = [
         '',
         'Poor',
