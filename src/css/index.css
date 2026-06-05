@@ -23,6 +23,7 @@ section div {
     gap: 5px;
 }
 
+/* Rating text */
 h2 {
     margin-top: 15px;
     font-size: 28px;
@@ -33,7 +34,7 @@ h2 {
     right: 20px;
     bottom: 20px;
     width: 140px;
-    height: 40px;
+    height: 45px;
     border-radius: 20px;
     background-color: #485eee;
     color: #fff;
@@ -47,7 +48,7 @@ h2 {
     justify-content: center;
     align-items: center;
 }
-
+/* Dialog box */
 .dialog-box {
     width: 350px;
     padding: 20px;
