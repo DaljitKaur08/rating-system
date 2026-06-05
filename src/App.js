@@ -15,17 +15,17 @@ function App() {
     }
 
     return (
-        <>
+        <div className="app">
             <StarRating />
 
-            <button onClick={openDialog}>
+            <button className="open-btn" onClick={openDialog}>
                 Open Dialog
             </button>
 
             {isOpen ? (
                 <Dialog closeDialog={closeDialog} />
             ) : null}
-        </>
+        </div>
     );
 }
 
