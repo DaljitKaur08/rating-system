@@ -1,3 +1,4 @@
+//Star Component shows a single star icon 
 import {FaStar} from 'react-icons/fa';
 function Star(props){
     return (
