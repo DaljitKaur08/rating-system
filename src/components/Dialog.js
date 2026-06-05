@@ -2,10 +2,10 @@ function Dialog(props) {
     return (
         <div className="dialog-overlay">
             <div className="dialog-box">
-                <h2>Dialog Box</h2>
+                <h2>React Rating System</h2>
 
                 <p>
-                    This is a dialog box component.
+                    Built using React components, props, and the useState hook.
                 </p>
 
                 <button onClick={props.closeDialog}>
